@@ -9,6 +9,6 @@
 
 **Ссылка на ресурс**
 
-* [Ссылка на макет в Figma]()
+* [Ссылка на сайт](https://maddkot.github.io/russian-travel/index.html)
 
 
