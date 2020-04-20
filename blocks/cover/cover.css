@@ -1,0 +1,35 @@
+@import url(../cover/__overlay/cover__overlay.css);
+@import url(../cover/__title/cover__title.css);
+@import url(../cover/__subtitle/cover__subtitle.css);
+
+.cover {
+  position: relative;
+  max-width: 1184px;
+  width: 100%;
+  margin: 90px auto;
+  padding-bottom: 62.5%;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.cover:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0,0.3);
+  transition: all 1s linear;
+  content: '';
+}
+
+.cover:hover:before {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1184px) {
+  .cover {
+    max-width: none;
+  }
+}
