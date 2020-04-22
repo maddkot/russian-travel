@@ -10,7 +10,7 @@
   <title>Путешествия по России</title>
 </head>
 
-<body>
+<body class="site">
   <div class="page">
 
     <header class="header">
@@ -41,7 +41,7 @@
       </div>
       <ul class="header__lang-list">
         <li>
-          <a href="#" class="header__lang-link">Ru</a>
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
         </li>
         <li>
           <a href="#" class="header__lang-link">En</a>
@@ -58,11 +58,14 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <img class="lead__image" src="images/lead-polka.jpg"
-          alt="Боковая полка в плацкартном вагоне. Поверх изображения карта с городами">
-        <p class="lead__caption">
-          ваша полка — верхняя
-        </p>
+        <figure>
+          <img class="lead__image" src="images/lead-polka.jpg"
+            alt="Боковая полка в плацкартном вагоне. Поверх изображения карта с городами">
+          <figcaption class="lead__caption">
+            ваша полка — верхняя
+          </figcaption>
+        </figure>
+
 
       </section>
 
@@ -82,7 +85,7 @@
         <ul class="intro__list">
           <li>
             <p class="intro__list-text">
-              Xасовых поясов <span class="intro__list-number">11</span>
+              Часовых поясов <span class="intro__list-number">11</span>
             </p>
           </li>
           <li>
@@ -108,31 +111,24 @@
         </ul>
       </section>
       <section class="photo-grid">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-train.jpg" alt="Вид из окна поезда">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-atharva-tulsi.jpg"
-          alt="Снежные горы в облаках">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-tuman.jpg"
+        <img class="photo-grid__photo" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
+        <img class="photo-grid__photo" src="./images/photo-grid-atharva-tulsi.jpg" alt="Снежные горы в облаках">
+        <img class="photo-grid__photo" src="./images/photo-grid-tuman.jpg"
           alt="На кольце из сена стоит собака в тумане">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-sochi.jpg"
-          alt="Хвойные деревья на склоне горы">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-arisa.jpg"
-          alt="Автомобиль стоит на льду">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-baikal.jpg" alt="Берег озера Байкала">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-elbrus.jpg" alt="Пик горы эльбрус">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-kondratiev.jpg"
+        <img class="photo-grid__photo" src="./images/photo-grid-sochi.jpg" alt="Хвойные деревья на склоне горы">
+        <img class="photo-grid__photo" src="./images/photo-grid-arisa.jpg" alt="Автомобиль стоит на льду">
+        <img class="photo-grid__photo" src="./images/photo-grid-baikal.jpg" alt="Берег озера Байкала">
+        <img class="photo-grid__photo" src="./images/photo-grid-elbrus.jpg" alt="Пик горы эльбрус">
+        <img class="photo-grid__photo" src="./images/photo-grid-kondratiev.jpg"
           alt="Знак пешеходного перехода на фоне волнорезов">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-kamchatka-1.jpg"
-          alt="Сопки Камчатки в тумане">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-kamchatka-2.jpg"
-          alt="Пик горы на камчатке">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-baikal-2.jpg"
-          alt="Скалистый берег Байкала">
-        <img class="photo-grid__photo" src="../russian-travel/images/photo-grid-ergaki.jpg"
-          alt="Плотный туман на вершинах гор">
+        <img class="photo-grid__photo" src="./images/photo-grid-kamchatka-1.jpg" alt="Сопки Камчатки в тумане">
+        <img class="photo-grid__photo" src="./images/photo-grid-kamchatka-2.jpg" alt="Пик горы на камчатке">
+        <img class="photo-grid__photo" src="./images/photo-grid-baikal-2.jpg" alt="Скалистый берег Байкала">
+        <img class="photo-grid__photo" src="./images/photo-grid-ergaki.jpg" alt="Плотный туман на вершинах гор">
       </section>
 
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h4 class="place__title">Куршская коса</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -151,8 +147,8 @@
               прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h4 class="place__title">Кольский</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -172,8 +168,8 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h4 class="place__title">Алтай</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -194,8 +190,8 @@
               знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h4 class="place__title">Зимний Байкал</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -215,8 +211,8 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h4 class="place__title">Карелия</h4>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -232,28 +228,37 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="cover">
         <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
             до Байкала на электричках.</p>
         </a>
       </section>
     </main>
-    <footer class="footer__list">
-      <nav class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+    <footer class="footer">
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__list">
+            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+          </li>
+          <li class="footer__list">
+            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+          </li class="footer__list">
+          <li class="footer__list">
+            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+          </li>
+          <li class="footer__list">
+            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+          </li class="footer__list">
+          <li>
+            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          </li>
+        </ul>
       </nav>
-      <div>
-        <span class="footer__copyright">&copy; 2020 Ренгевич Сергей</span>
-      </div>
-
+      <p class="footer__copyright">&copy; 2020 Ренгевич Сергей</p>
     </footer>
   </div>
 </body>

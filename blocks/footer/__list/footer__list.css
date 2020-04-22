@@ -1,20 +1,11 @@
-.footer__list {
-    display: flex;
-    justify-content: space-between;
-    margin: 92px 48px 0;
-    padding-bottom: 24px;
-  }
-  @media screen and (max-width: 1024px){
-    .footer__list {
-      margin-top: 88px;
-    }
-  }
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .footer__list {
-      flex-direction: column;
-      margin: 64px 16px 0;
+      margin-bottom: 32px;
+      
+    }
+    .foter__list:last-child {
+      margin-bottom: 0px;
     }
   }
   
- 

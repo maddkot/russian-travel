@@ -6,8 +6,7 @@
   position: relative;
   max-width: 1184px;
   width: 100%;
-  margin: 90px auto;
-  padding-bottom: 62.5%;
+  margin: 90px auto;    
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center center;
@@ -19,7 +18,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0,0.3);
+  background: rgba(42, 44, 47,0.3);
   transition: all 1s linear;
   content: '';
 }

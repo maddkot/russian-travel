@@ -1,8 +1,9 @@
 .intro__list-text {
   max-width: 690px;  
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+  
 }
