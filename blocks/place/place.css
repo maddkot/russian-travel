@@ -12,14 +12,31 @@
   grid-template-rows: 1fr auto;
   grid-gap: 20px;
   margin: 0px 0px 80px;
+  row-gap: 40px;
+  column-gap: 48px;
+  row-gap: 48px;
 }
 
 .place:last-of-type {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width:1024px) {
+  .place {
+    column-gap: 32px;     
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+  }
+}
+
 @media screen and (max-width: 490px) {
   .place {
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 32px; 
   }
 }
+

@@ -11,21 +11,22 @@
   padding-bottom: 24px;
 }
 
-@media screen and (min-width: 1184px) {
+@media screen and (min-width: 1187px) {
   .footer {
     margin: auto;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .footer {
-    margin-top: 88px;
+
+@media screen and (max-width: 768px) {
+  .footer {    
+    margin: 0 24px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
-    margin: 64px 16px 0;
+    margin-left: 16px;
   }
 }
